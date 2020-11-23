@@ -1,4 +1,7 @@
-Build and Bundle (Click on the Pictures to follow Youtube Instruction)
+(Click on the Pictures to follow Youtube Instruction)
+
+Build and Bundle
+
 [![testApp Build and Bundle | AWS RoboMaker](http://img.youtube.com/vi/aXdJWyrgB94/0.jpg)](http://www.youtube.com/watch?v=aXdJWyrgB94 "testApp Build and Bundle | AWS RoboMaker")
 
 Run the Car
