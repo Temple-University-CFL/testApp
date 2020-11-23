@@ -1,0 +1,13 @@
+<launch>
+    
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find robots)/models/diff_drive/diff_drive.xacro'"/>
+    
+    <node pkg="gmapping" name="slam_gmapping" type="slam_gmapping" output="screen">
+        <param name="scan"        value="scan"/>
+        <param name="odom_frame"  value="odom_link"/>
+        <param name="base_frame"  value="base_link"/>
+    </node>
+    
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen"/> 
+
+</launch>
